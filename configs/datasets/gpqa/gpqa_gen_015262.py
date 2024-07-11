@@ -13,7 +13,7 @@ gpqa_infer_cfg = dict(
         type=PromptTemplate,
         template=dict(
             round=[
-                dict(role='HUMAN', prompt='{question}\nChoices:\n'
+                dict(role='HUMAN', prompt='What is the correct answer to this question: {question}\nChoices:\n'
                                           '(A){A}\n'
                                           '(B){B}\n'
                                           '(C){C}\n'
